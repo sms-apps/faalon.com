@@ -1,11 +1,10 @@
-parameters:
-  - name: azureSubscription
-    type: string
-  - name: webAppName
-    type: string
-  - name: sourceBranchTrigger
-    type: string
-
+#parameters:
+#  - name: azureSubscription
+#    type: string
+#  - name: webAppName
+#    type: string
+#  - name: sourceBranchTrigger
+#    type: string
 stages:
   - stage: build_stage
     displayName: "Build"
